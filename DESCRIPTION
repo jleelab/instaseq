@@ -2,10 +2,15 @@ Package: instaseq
 Type: Package
 Title: Processing in situ sequencing data
 Version: 0.1.0
-Author: Daniel Fürth
+Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Depends: RcppArmadillo, Rcpp, RcppProgress
+Imports: Rcpp (>= 0.12.9), RcppArmadillo, RcppProgress, wholebrain, methods
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress
+RcppModules: class_Stack, methods_Display
+RoxygenNote: 6.1.1
